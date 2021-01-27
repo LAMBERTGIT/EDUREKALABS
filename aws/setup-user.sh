@@ -105,7 +105,7 @@ update_conf()
 
 ############### MAIN ###################
 
-USER="lambert"
+USER="devops"
 GROUP="devops"
 passw="080808Lambi"
 
