@@ -13,6 +13,9 @@ Test the installation by running a simple container:
 
 	## FYI Only ## Check Available Version for Install"
 	apt-cache madison docker-ce | awk '{print $3}'
+	
+	#TO GIVE JENKINS DOCKER PERMISIONS
+	sudo usermod -aG docker jenkins
 
 
 =========================================================================
